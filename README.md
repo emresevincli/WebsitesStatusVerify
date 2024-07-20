@@ -23,4 +23,4 @@ You can find the full list of dependencies and their versions in the `pom.xml` f
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/WebsitesStatusVerify.git
+   git clone https://github.com/emresevincli/WebsitesStatusVerify.git
