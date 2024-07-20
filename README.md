@@ -1,26 +1,26 @@
 # WebsitesStatusVerify
 
-WebsitesStatusVerify, RestAssured ve Cucumber kullanarak web sitelerinin durum kodlarını doğrulayan bir projedir. Bu proje, belirli URL'lere GET isteği gönderir, yönlendirmeleri takip eder ve son yönlendirme sonrası durumu kontrol eder.
+WebsitesStatusVerify is a project that verifies the status codes of websites using RestAssured and Cucumber. This project sends GET requests to specified URLs, follows redirects, and checks the final status code.
 
-## Proje Yapısı
+## Project Structure
 
-- **src/test/java**: Test senaryoları ve adım tanımları burada bulunur.
-- **src/test/resources**: Cucumber özellik dosyaları burada bulunur.
-- **pom.xml**: Proje bağımlılıkları ve yapılandırmalar burada tanımlanır.
+- **src/test/java**: Contains the test scenarios and step definitions.
+- **src/test/resources**: Contains the Cucumber feature files.
+- **pom.xml**: Defines the project dependencies and configurations.
 
-## Bağımlılıklar
+## Dependencies
 
-Bu proje aşağıdaki ana bağımlılıkları kullanır:
+This project uses the following main dependencies:
 
 - Cucumber Java
 - Cucumber JUnit
 - RestAssured
 - JUnit
 
-Bağımlılıkların tam listesi ve sürümleri için `pom.xml` dosyasına bakabilirsiniz.
+You can find the full list of dependencies and their versions in the `pom.xml` file.
 
-## Kurulum
+## Setup
 
-1. Bu projeyi klonlayın:
+1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/WebsitesStatusVerify.git
